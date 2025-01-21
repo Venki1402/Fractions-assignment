@@ -48,7 +48,7 @@ const PizzaSlices: React.FC<PizzaSlicesProps> = ({
             cx="50"
             cy="50"
             r="45"
-            fill="#F5DEB3"
+            fill={color}
             stroke="#8B4513"
             strokeWidth="0.5"
           />

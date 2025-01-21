@@ -46,6 +46,21 @@ export const StepModule: React.FC<StepModuleProps> = ({
               <span>{stepText}</span>
             </div>
           )}
+          {screen === "third" && (
+            <div className="flex items-center justify-center my-4">
+              <span>{stepText}</span>
+            </div>
+          )}
+          {screen === "fourth" && (
+            <div className="flex items-center justify-center my-4">
+              <span>{stepText}</span>
+            </div>
+          )}
+          {screen === "fifth" && (
+            <div className="flex items-center justify-center my-4">
+              <span>{stepText}</span>
+            </div>
+          )}
         </h2>
       </div>
     </div>

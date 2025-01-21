@@ -120,19 +120,19 @@ const SecondStep = ({ setStep }) => {
       </div>
 
       {/* Bottom Section */}
-    <div className="bg-white p-6 rounded-lg mb-8 text-center text-2xl flex items-center justify-center">
-      <MixedFraction whole={3} num={2} denom={4} size="text-2xl" />
-      <span className="mx-4">=</span>
-      <span className="text-green-600">3 wholes</span>
-      <span className="mx-4">+</span>
-      <div className="inline-flex items-center">
-        <div className="text-[#f54f7b] flex flex-col items-center">
-        <span>2</span>
-        <div className="border-t border-[#f54f7b] w-4"></div>
-        <span>4</span>
+      <div className="bg-white p-6 rounded-lg mb-8 text-center text-2xl flex items-center justify-center">
+        <MixedFraction whole={3} num={2} denom={4} size="text-2xl" />
+        <span className="mx-4">=</span>
+        <span className="text-green-600">3 wholes</span>
+        <span className="mx-4">+</span>
+        <div className="inline-flex items-center">
+          <div className="text-[#f54f7b] flex flex-col items-center">
+            <span>2</span>
+            <div className="border-t border-[#f54f7b] w-4"></div>
+            <span>4</span>
+          </div>
         </div>
       </div>
-    </div>
 
       {/* Next Step Button */}
       <div className="flex justify-center">
