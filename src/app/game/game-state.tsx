@@ -1,9 +1,13 @@
 export const desc = ``;
 
-export type GameScreen = 'first' | 'second' | 'third';
+export type GameScreen = "first" | "second" | "third";
 
 export interface MixedFraction {
   whole: number;
+  numerator: number;
+  denominator: number;
+}
+export interface Fraction {
   numerator: number;
   denominator: number;
 }
@@ -32,7 +36,7 @@ export interface GameState {
 }
 
 export const initialGameState: GameState = {
-  screen: 'first',
+  screen: "first",
   state1: {
     step: 0,
     mixedFraction: {
