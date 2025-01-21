@@ -1,14 +1,17 @@
 import Fraction from "@/components/helperComponents/Fraction";
 import Header from "@/components/helperComponents/Header";
 import MixedFraction from "@/components/helperComponents/MixedFraction";
-import { Button } from "@/components/ui/button";
 import React from "react";
 
 const FirstStep = ({ setStep }) => {
   return (
     <div>
       <Header />
-      <div className="border-[6px] border-[#f54f7b] h-36">
+      <br />
+      <br />
+      <br />
+      <br />
+      <div className="border-[6px] border-[#f54f7b] h-36 mx-">
         <div className="flex items-center justify-center w-full h-full ">
           <div className=" flex items-center justify-center border-4 border-[#f54f7b] w-[30%] h-full text-4xl border-r-[6px] text-[#f54f7b]">
             Level 1
@@ -30,7 +33,6 @@ const FirstStep = ({ setStep }) => {
               onClick={() => {
                 setStep((prev) => prev + 1);
                 console.log(`🚀 next step clicked`);
-                
               }}
             >
               Start &gt;&gt;
